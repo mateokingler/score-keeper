@@ -67,7 +67,7 @@ class TeamEditViewController: UIViewController, UIColorPickerViewControllerDeleg
         view.addSubview(colorWell2)
         colorWell1.addTarget(self, action: #selector(colorChanged), for: .valueChanged)
         colorWell2.addTarget(self, action: #selector(colorChanged), for: .valueChanged)
-        
+        print("Test")
         // Do any additional setup after loading the view.
     }
     
