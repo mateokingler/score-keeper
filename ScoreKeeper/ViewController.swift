@@ -17,11 +17,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Sport Select"
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
+        
     }
-
+    
+    //LOCK PORTRAIT MODE -> Method in AppDelegate
+    override func viewWillAppear(_ animated: Bool) {
+        AppDelegate.AppUtility.lockOrientation(UIInterfaceOrientationMask.portrait, andRotateTo: UIInterfaceOrientation.portrait)
+    }
     
 
 }
@@ -38,22 +44,16 @@ extension ViewController:UITableViewDelegate{
         
         //the identifier must be set in the destination VC
         let teamEditVC = storyboard?.instantiateViewController(withIdentifier: "TeamEditViewController") as! TeamEditViewController
-        //let baseballVC = storyboard?.instantiateViewController(withIdentifier: "BaseballViewController") as! BaseballViewController
+
         
         var sportSelected = pages[indexPath.row]
         teamEditVC.sportSelected = sportSelected
-//        if(pages[indexPath.row] == "Baseball"){
-//            
-//        }
-        
+
         navigationController?.pushViewController(teamEditVC, animated: true)
-//       // baseballVC.pages = pages[0]
-//        //detailVC.char = chars[indexPath.row]
-//
-//        navigationController?.pushViewController(baseballVC, animated: true)
     }
     
 }
+
 extension ViewController:UITableViewDataSource{
    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

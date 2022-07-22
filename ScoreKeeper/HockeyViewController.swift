@@ -58,6 +58,10 @@ class HockeyViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    //LOCK PORTRAIT MODE -> Method in AppDelegate
+    override func viewWillAppear(_ animated: Bool) {
+        AppDelegate.AppUtility.lockOrientation(UIInterfaceOrientationMask.portrait, andRotateTo: UIInterfaceOrientation.portrait)
+    }
     
     //Team 1 buttons action ====================================
     @IBAction func addGoalTeam1ButtonPressed(_ sender: UIButton) {

@@ -7,6 +7,9 @@
 
 import UIKit
 
+//Extension method to dismiss keyboard when clikcing away
+
+
 class TeamEditViewController: UIViewController, UIColorPickerViewControllerDelegate {
 
     @IBOutlet weak var team1Label: UILabel!
@@ -67,8 +70,28 @@ class TeamEditViewController: UIViewController, UIColorPickerViewControllerDeleg
         view.addSubview(colorWell2)
         colorWell1.addTarget(self, action: #selector(colorChanged), for: .valueChanged)
         colorWell2.addTarget(self, action: #selector(colorChanged), for: .valueChanged)
-        print("Hello")
+        
         // Do any additional setup after loading the view.
+        //Looks for single or multiple taps.
+         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+
+        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+        
+        //PART METHOD TO DISMISS KEYBOARD WHEN CLICKING ANYWHERE
+        view.addGestureRecognizer(tap)
+        
+        
+    }
+    
+    //LOCK PORTRAIT MODE -> Method in AppDelegate
+    override func viewWillAppear(_ animated: Bool) {
+        AppDelegate.AppUtility.lockOrientation(UIInterfaceOrientationMask.portrait, andRotateTo: UIInterfaceOrientation.portrait)
+    }
+    
+    //METHOD TO DISMISS KEYBOARD WHEN CLICKING ANYWHERE
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
     
     override func viewDidLayoutSubviews() {
