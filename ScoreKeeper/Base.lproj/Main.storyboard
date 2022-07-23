@@ -150,10 +150,10 @@
                                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sSQ-Dd-h9F" userLabel="Team Color Select Stack View">
                                                 <rect key="frame" x="0.0" y="30.5" width="374" height="141"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tIf-ti-SLG">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tIf-ti-SLG" customClass="UIColorWell">
                                                         <rect key="frame" x="0.0" y="0.0" width="182" height="141"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tya-Mw-a6h">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1QH-hN-fLH" customClass="UIColorWell">
                                                         <rect key="frame" x="192" y="0.0" width="182" height="141"/>
                                                     </imageView>
                                                 </subviews>
@@ -191,13 +191,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="team1ColorImageView" destination="tIf-ti-SLG" id="Whf-OZ-LTq"/>
                         <outlet property="team1ColorLabel" destination="lWl-pB-eHo" id="qxF-mI-Yjh"/>
+                        <outlet property="team1ColorWell" destination="tIf-ti-SLG" id="Cs2-LI-td5"/>
                         <outlet property="team1Input" destination="U9C-D0-A0H" id="v22-Tz-0C9"/>
                         <outlet property="team1Label" destination="MDZ-YD-90G" id="DB7-pf-xbq"/>
                         <outlet property="team1NameLabel" destination="GxP-we-iHR" id="MwQ-Kk-Pui"/>
-                        <outlet property="team2ColorImageView" destination="tya-Mw-a6h" id="tfs-bP-AcO"/>
                         <outlet property="team2ColorLabel" destination="f3N-PF-G6G" id="geS-8H-pm9"/>
+                        <outlet property="team2ColorWell" destination="1QH-hN-fLH" id="35g-3h-8Ht"/>
                         <outlet property="team2Input" destination="oHF-tv-ebQ" id="hbo-Yh-PhZ"/>
                         <outlet property="team2Label" destination="c3d-O5-QlK" id="E0Q-yc-lXS"/>
                         <outlet property="team2NameLabel" destination="2s9-wS-PEL" id="bfT-sw-DHy"/>
