@@ -2,25 +2,63 @@
 //  BaseballViewController.swift
 //  ScoreKeeper
 //
-//  Created by Ernesto Gomila on 7/11/22.
-//
 
 import UIKit
 
 class BaseballViewController: UIViewController {
 
+    @IBOutlet weak var team1ScoreLabel: UILabel!
+    @IBOutlet weak var team2ScoreLabel: UILabel!
     @IBOutlet weak var team1Label: UILabel!
     @IBOutlet weak var team2Label: UILabel!
-    var team1Name : String = ""
+    @IBOutlet weak var addRunTeam1: UIButton!
+    @IBOutlet weak var addRunTeam2: UIButton!
+    @IBOutlet weak var removeRunTeam1: UIButton!
+    @IBOutlet weak var removeRunTeam2: UIButton!
+    
+    var team1Name : String = "Marlins"
+    var team2Name : String = "Angels"
+    
+    var team1Score = 0
+    var team2Score = 0
+    
+    var homerun = 1
+    
+    
     override func viewDidLoad() {
-        team1Label.text = team1Name
-        print("Name is \(team1Name)")
         super.viewDidLoad()
-        //team1Label.text = team1Name
+        
+        team1Label.text = team1Name
+        team2Label.text = team2Name
+        team1ScoreLabel.text = String(team1Score)
+        team2ScoreLabel.text = String(team2Score)
+        
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func addRunTeam1Pressed(_ sender: UIButton) {
+        team1Score += homerun
+        team1ScoreLabel.text = String(team1Score)
+    }
+    
+    @IBAction func addRunTeam2Pressed(_ sender: UIButton) {
+        team2Score += homerun
+        team2ScoreLabel.text = String(team2Score)
+    }
+    
+    @IBAction func removeRunTeam1Pressed(_ sender: UIButton) {
+        if(team1Score != 0){
+            team1Score -= homerun
+            team1ScoreLabel.text = String(team1Score)
+        }
+    }
+    
+    @IBAction func removeRunTeam2Pressed(_ sender: UIButton) {
+        if(team2Score != 0){
+            team2Score -= homerun
+            team2ScoreLabel.text = String(team2Score)
+        }
+    }
     /*
     // MARK: - Navigation
 

@@ -205,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqf-nN-BWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066.6666666666667" y="-171.42857142857142"/>
+            <point key="canvasLocation" x="1661" y="-80"/>
         </scene>
         <!--Baseball View Controller-->
         <scene sceneID="Ev0-7n-gxB">
@@ -216,52 +216,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheaters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afo-FK-oiN">
-                                <rect key="frame" x="101" y="162" width="108" height="21"/>
+                                <rect key="frame" x="62" y="534" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Losers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c62-W2-ixc">
-                                <rect key="frame" x="223" y="162" width="91" height="21"/>
+                                <rect key="frame" x="223" y="534" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-Ky-iUn">
-                                <rect key="frame" x="129" y="94" width="54" height="60"/>
+                                <rect key="frame" x="84" y="280" width="84" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE3-kK-Rky">
-                                <rect key="frame" x="205" y="114" width="8" height="21"/>
+                                <rect key="frame" x="190" y="280" width="35" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJO-6D-6I5">
-                                <rect key="frame" x="241" y="94" width="54" height="60"/>
+                                <rect key="frame" x="245" y="280" width="84" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uma-LK-mTf">
-                                <rect key="frame" x="61" y="224" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Run">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zI-EH-POZ">
-                                <rect key="frame" x="62" y="323" width="127" height="89"/>
+                                <rect key="frame" x="62" y="709" width="128" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Remove Run">
@@ -269,9 +259,12 @@
                                         <color key="strokeColor" systemColor="systemRedColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="removeRunTeam1Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="9JL-h8-ucl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-uU-duS">
-                                <rect key="frame" x="224" y="224" width="128" height="89"/>
+                                <rect key="frame" x="223" y="596" width="128" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Add Run">
@@ -279,9 +272,12 @@
                                         <color key="strokeColor" systemColor="tintColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="addRunTeam2Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="rqR-7H-xhx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doJ-ek-w6B">
-                                <rect key="frame" x="225" y="323" width="127" height="89"/>
+                                <rect key="frame" x="223" y="709" width="128" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Remove Run">
@@ -289,6 +285,22 @@
                                         <color key="strokeColor" systemColor="tintColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="removeRunTeam2Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="EwI-mX-WOf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uma-LK-mTf">
+                                <rect key="frame" x="62" y="596" width="128" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add Run">
+                                    <backgroundConfiguration key="background">
+                                        <color key="strokeColor" systemColor="systemRedColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addRunTeam1Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="HgM-xt-xxJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zeh-9U-ptA"/>
@@ -296,13 +308,19 @@
                     </view>
                     <navigationItem key="navigationItem" id="Zf9-X3-PqW"/>
                     <connections>
-                        <outlet property="team1Label" destination="Afo-FK-oiN" id="Hna-Vd-hcv"/>
-                        <outlet property="team2Label" destination="c62-W2-ixc" id="f7N-uP-DkY"/>
+                        <outlet property="addRunTeam1" destination="uma-LK-mTf" id="xAb-Et-ocJ"/>
+                        <outlet property="addRunTeam2" destination="7pN-uU-duS" id="vb8-cs-vzh"/>
+                        <outlet property="removeRunTeam1" destination="0zI-EH-POZ" id="wtF-Fc-FJt"/>
+                        <outlet property="removeRunTeam2" destination="doJ-ek-w6B" id="L2f-g9-BOc"/>
+                        <outlet property="team1Label" destination="Afo-FK-oiN" id="tNM-6f-ztP"/>
+                        <outlet property="team1ScoreLabel" destination="Bxg-Ky-iUn" id="X8p-L8-2Vs"/>
+                        <outlet property="team2Label" destination="c62-W2-ixc" id="li9-y1-OxT"/>
+                        <outlet property="team2ScoreLabel" destination="PJO-6D-6I5" id="nj5-7x-PwO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9l5-6P-hhb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4655" y="-754"/>
+            <point key="canvasLocation" x="2521.739130434783" y="-80.357142857142847"/>
         </scene>
         <!--Other View Controller-->
         <scene sceneID="Feg-lg-BAl">
@@ -475,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9e-WA-5WW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3232" y="-80"/>
+            <point key="canvasLocation" x="2522" y="-754"/>
         </scene>
         <!--Soccer View Controller-->
         <scene sceneID="PaK-u0-0MB">
@@ -568,7 +586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vuu-1O-ALS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2522" y="-80"/>
+            <point key="canvasLocation" x="3932" y="-80"/>
         </scene>
         <!--Hockey View Controller-->
         <scene sceneID="40d-M7-8HT">
@@ -708,7 +726,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QOt-He-OKV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2521.739130434783" y="-754.01785714285711"/>
+            <point key="canvasLocation" x="3232" y="-80"/>
         </scene>
         <!--Basketball View Controller-->
         <scene sceneID="7vt-EG-xu1">
