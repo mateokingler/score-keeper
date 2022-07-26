@@ -117,7 +117,85 @@ class BasketballViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    //Add Buttons
+    @IBAction func add2PTTeam1Pressed(_ sender: UIButton) {
+        team1Score += twoPointer
+        team1ScoreLabel.text = String(team1Score)
+    }
+    
+    @IBAction func add2PTTeam2Pressed(_ sender: UIButton) {
+        team2Score += twoPointer
+        team2ScoreLabel.text = String(team2Score)
+    }
+    
+    @IBAction func addFreeThrowTeam1Pressed(_ sender: UIButton) {
+        team1Score += freeThrow
+        team1ScoreLabel.text = String(team1Score)
+    }
+    
+    @IBAction func addFreeThrowTeam2Pressed(_ sender: UIButton) {
+        team2Score += freeThrow
+        team2ScoreLabel.text = String(team2Score)
+    }
+    
+    @IBAction func add3PTTeam1Pressed(_ sender: UIButton) {
+        team1Score += threePointer
+        team1ScoreLabel.text = String(team1Score)
+    }
+    
+    @IBAction func add3PTTeam2Pressed(_ sender: UIButton) {
+        team2Score += threePointer
+        team2ScoreLabel.text = String(team2Score)
+    }
+    
+    //Remove Buttons
+    
+    @IBAction func remove2PTTeam1Pressed(_ sender: UIButton) {
+        if(team1Score >= 2){
+            team1Score -= twoPointer
+            team1ScoreLabel.text = String(team1Score)
+        }
+    }
+    
+    @IBAction func remove2PTTeam2Pressed(_ sender: UIButton) {
+        if(team2Score >= 2){
+            team2Score -= twoPointer
+            team2ScoreLabel.text = String(team2Score)
+        }
+    }
+    
+    @IBAction func remove3PTTeam1Pressed(_ sender: UIButton) {
+        if(team1Score >= 3){
+            team1Score -= threePointer
+            team1ScoreLabel.text = String(team1Score)
+        }
+    }
+    
+    @IBAction func remove3PTTeam2Pressed(_ sender: UIButton) {
+        if(team2Score >= 3){
+            team2Score -= threePointer
+            team2ScoreLabel.text = String(team2Score)
+        }
+    }
+    
+    @IBAction func removeFreeThrowTeam1Pressed(_ sender: UIButton) {
+        if(team1Score >= 1){
+            team1Score -= freeThrow
+            team1ScoreLabel.text = String(team1Score)
+        }
+    }
+    
+    @IBAction func removeFreeThrowTeam2Pressed(_ sender: UIButton) {
+        if(team2Score >= 1){
+            team2Score -= freeThrow
+            team2ScoreLabel.text = String(team2Score)
+        }
+    }
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
