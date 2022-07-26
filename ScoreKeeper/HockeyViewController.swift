@@ -18,7 +18,7 @@ class HockeyViewController: UIViewController {
     @IBOutlet weak var removeGoalButtonTeam1: UIButton!
     @IBOutlet weak var team2Label: UILabel!
     @IBOutlet weak var team1Label: UILabel!
-    var team1Color : UIColor = .systemGray
+    var team1Color : UIColor = .systemRed
     var team2Color : UIColor = .systemBlue
     var team1Name : String = "Team 1"
     var team2Name : String = "Team 2"

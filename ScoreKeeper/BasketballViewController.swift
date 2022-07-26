@@ -49,7 +49,7 @@ class BasketballViewController: UIViewController {
     var team1Name : String = ""
     var team2Name : String = ""
     override func viewDidLoad() {
-        title = "Basketball Scorekeeper"
+        title = "Basketball ScoreKeeper"
         team1Score = 0
         team2Score = 0
         //Labels

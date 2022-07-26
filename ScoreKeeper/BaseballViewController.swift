@@ -16,22 +16,36 @@ class BaseballViewController: UIViewController {
     @IBOutlet weak var removeRunTeam1: UIButton!
     @IBOutlet weak var removeRunTeam2: UIButton!
     
-    var team1Name : String = "Marlins"
-    var team2Name : String = "Angels"
+    var team1Color : UIColor = .systemRed
+    var team2Color : UIColor = .systemBlue
+    
+    var team1Name : String = "Team 1"
+    var team2Name : String = "Team 2"
+    
     
     var team1Score = 0
     var team2Score = 0
     
-    var homerun = 1
+    let homerun = 1
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "Baseball ScoreKeeper"
         team1Label.text = team1Name
         team2Label.text = team2Name
         team1ScoreLabel.text = String(team1Score)
         team2ScoreLabel.text = String(team2Score)
+        
+        addRunTeam1.layer.cornerRadius = 8.0
+        addRunTeam1.layer.borderWidth = 3.0
+        addRunTeam1.layer.borderColor = team1Color.cgColor
+        
+        addRunTeam2.layer.cornerRadius = 8.0
+        addRunTeam2.layer.borderWidth = 3.0
+        addRunTeam2.layer.borderColor = team2Color.cgColor
+        
+        
         
         // Do any additional setup after loading the view.
     }

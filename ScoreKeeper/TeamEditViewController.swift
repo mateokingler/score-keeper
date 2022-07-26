@@ -100,6 +100,9 @@ class TeamEditViewController: UIViewController, UIColorPickerViewControllerDeleg
         if(sportSelected == "Baseball"){
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "BaseballViewController") as! BaseballViewController
             sportVC.team1Name = team1Input.text ?? "Team 1"
+            sportVC.team2Name = team2Input.text ?? "Team 2"
+//            sportVC.team1Color = colorWell1.selectedColor ?? .systemRed
+//            sportVC.team2Color = colorWell2.selectedColor ?? .systemBlue
             navigationController?.pushViewController(sportVC, animated: true)
         } else if(sportSelected == "Basketball"){
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "BasketballViewController") as! BasketballViewController
@@ -112,8 +115,8 @@ class TeamEditViewController: UIViewController, UIColorPickerViewControllerDeleg
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "HockeyViewController") as! HockeyViewController
             sportVC.team1Name = team1Input.text ?? "Team 1"
             sportVC.team2Name = team2Input.text ?? "Team 2"
-            //sportVC.team1Color = colorWell1.selectedColor ?? .systemRed
-            //sportVC.team2Color = colorWell2.selectedColor ?? .systemBlue
+//            sportVC.team1Color = colorWell1.selectedColor ?? .systemRed
+//            sportVC.team2Color = colorWell2.selectedColor ?? .systemBlue
             navigationController?.pushViewController(sportVC, animated: true)
         }else if(sportSelected == "Soccer"){
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "SoccerViewController") as! SoccerViewController

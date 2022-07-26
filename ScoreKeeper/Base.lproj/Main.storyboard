@@ -211,100 +211,124 @@
         <scene sceneID="Ev0-7n-gxB">
             <objects>
                 <viewController restorationIdentifier="BaseballViewController" storyboardIdentifier="BaseballViewController" id="Jsl-Rn-9R1" customClass="BaseballViewController" customModule="ScoreKeeper" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2SX-HB-zeS" customClass="Based">
+                    <view key="view" contentMode="scaleToFill" id="2SX-HB-zeS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheaters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afo-FK-oiN">
-                                <rect key="frame" x="62" y="534" width="128" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Losers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c62-W2-ixc">
-                                <rect key="frame" x="223" y="534" width="128" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-Ky-iUn">
-                                <rect key="frame" x="84" y="280" width="84" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE3-kK-Rky">
-                                <rect key="frame" x="190" y="280" width="35" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJO-6D-6I5">
-                                <rect key="frame" x="245" y="280" width="84" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zI-EH-POZ">
-                                <rect key="frame" x="62" y="709" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Run">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="removeRunTeam1Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="9JL-h8-ucl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-uU-duS">
-                                <rect key="frame" x="223" y="596" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Run">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="addRunTeam2Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="rqR-7H-xhx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doJ-ek-w6B">
-                                <rect key="frame" x="223" y="709" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Run">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="removeRunTeam2Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="EwI-mX-WOf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uma-LK-mTf">
-                                <rect key="frame" x="62" y="596" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Run">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="addRunTeam1Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="HgM-xt-xxJ"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7Y6-NJ-VHg" userLabel="Main Stack View">
+                                <rect key="frame" x="20" y="216" width="374" height="561"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="OZk-nq-iqn" userLabel="Top Level Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="280.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="p7E-5r-ooJ" userLabel="Score Stack View">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="208.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-Ky-iUn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="208.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJO-6D-6I5">
+                                                        <rect key="frame" x="227" y="0.0" width="147" height="208.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="4Rx-FH-dIZ" userLabel="Team Name Stack View">
+                                                <rect key="frame" x="0.0" y="208.5" width="374" height="72"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheaters" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afo-FK-oiN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="152" height="72"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Losers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c62-W2-ixc">
+                                                        <rect key="frame" x="222" y="0.0" width="152" height="72"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ne1-uc-aVh" userLabel="Buttons Stack View">
+                                        <rect key="frame" x="0.0" y="280.5" width="374" height="280.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="gjs-xj-nLx" userLabel="Add Stack View">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="135.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uma-LK-mTf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="135.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Run">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="addRunTeam1Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="HgM-xt-xxJ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-uU-duS">
+                                                        <rect key="frame" x="215.5" y="0.0" width="158.5" height="135.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Run">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="addRunTeam2Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="rqR-7H-xhx"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="KJV-Pd-rBk" userLabel="Remove Stack View">
+                                                <rect key="frame" x="0.0" y="145.5" width="374" height="135"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zI-EH-POZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="135"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Run">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="removeRunTeam1Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="9JL-h8-ucl"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doJ-ek-w6B">
+                                                        <rect key="frame" x="215.5" y="0.0" width="158.5" height="135"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Run">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="removeRunTeam2Pressed:" destination="Jsl-Rn-9R1" eventType="touchUpInside" id="EwI-mX-WOf"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ne1-uc-aVh" firstAttribute="top" secondItem="OZk-nq-iqn" secondAttribute="bottom" priority="250" constant="4" id="0UL-jh-Uhp"/>
+                                    <constraint firstItem="OZk-nq-iqn" firstAttribute="leading" secondItem="7Y6-NJ-VHg" secondAttribute="leading" priority="250" constant="20" id="c8g-Oa-I1F"/>
+                                    <constraint firstItem="OZk-nq-iqn" firstAttribute="top" secondItem="7Y6-NJ-VHg" secondAttribute="top" id="cCB-Rd-bhw"/>
+                                    <constraint firstAttribute="trailing" secondItem="OZk-nq-iqn" secondAttribute="trailing" priority="250" constant="20" id="zpH-4j-H52"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zeh-9U-ptA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zeh-9U-ptA" firstAttribute="trailing" secondItem="7Y6-NJ-VHg" secondAttribute="trailing" constant="20" id="9VU-zo-DRe"/>
+                            <constraint firstItem="Zeh-9U-ptA" firstAttribute="bottom" secondItem="7Y6-NJ-VHg" secondAttribute="bottom" constant="85" id="BgZ-kT-jii"/>
+                            <constraint firstItem="7Y6-NJ-VHg" firstAttribute="top" secondItem="Zeh-9U-ptA" secondAttribute="top" constant="172" id="PiJ-jl-YVq"/>
+                            <constraint firstItem="7Y6-NJ-VHg" firstAttribute="leading" secondItem="Zeh-9U-ptA" secondAttribute="leading" constant="20" id="iC7-4D-y7X"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zf9-X3-PqW"/>
                     <connections>
@@ -596,24 +620,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="9Ia-3Z-Ijq" userLabel="Main Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9Ia-3Z-Ijq" userLabel="Main Stack View">
                                 <rect key="frame" x="20" y="216" width="374" height="561"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="234" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="we6-dK-W90" userLabel="Top Level Stack View">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="278.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="280.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="yBB-uo-Asu" userLabel="Score Stack View">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="207"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="208.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="wordWrap" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="pAy-rf-Lc6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="207"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="208.5"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="wordWrap" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZ7-Lf-JwC">
-                                                        <rect key="frame" x="227" y="0.0" width="147" height="207"/>
+                                                        <rect key="frame" x="227" y="0.0" width="147" height="208.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -621,16 +645,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="Ljr-Km-PKw" userLabel="Names Stack View">
-                                                <rect key="frame" x="0.0" y="207" width="374" height="71.5"/>
+                                                <rect key="frame" x="0.0" y="208.5" width="374" height="72"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheaters" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjX-Jd-qB3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="152" height="71.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="152" height="72"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Losers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaQ-wz-fc9">
-                                                        <rect key="frame" x="222" y="0.0" width="152" height="71.5"/>
+                                                        <rect key="frame" x="222" y="0.0" width="152" height="72"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -640,13 +664,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1xK-78-2aZ" userLabel="Buttons Stack View">
-                                        <rect key="frame" x="0.0" y="282.5" width="374" height="278.5"/>
+                                        <rect key="frame" x="0.0" y="280.5" width="374" height="280.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="Rnm-vm-8KE" userLabel="Add Stack View">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="134.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="135.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4U-KO-hZw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="134.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="135.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Add Goal">
                                                             <backgroundConfiguration key="background"/>
@@ -656,7 +680,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXa-Uf-YU6">
-                                                        <rect key="frame" x="215.5" y="0.0" width="158.5" height="134.5"/>
+                                                        <rect key="frame" x="215.5" y="0.0" width="158.5" height="135.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Add Goal" titleAlignment="center">
                                                             <backgroundConfiguration key="background"/>
@@ -668,10 +692,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="CLq-40-zGp" userLabel="Remove Stack View">
-                                                <rect key="frame" x="0.0" y="144.5" width="374" height="134"/>
+                                                <rect key="frame" x="0.0" y="145.5" width="374" height="135"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKI-yb-BcN">
-                                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="134"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="135"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" Remove Goal">
                                                             <backgroundConfiguration key="background"/>
@@ -681,7 +705,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbt-k8-C5q">
-                                                        <rect key="frame" x="215.5" y="0.0" width="158.5" height="134"/>
+                                                        <rect key="frame" x="215.5" y="0.0" width="158.5" height="135"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Remove Goal">
                                                             <backgroundConfiguration key="background"/>
