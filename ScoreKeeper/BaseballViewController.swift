@@ -45,7 +45,13 @@ class BaseballViewController: UIViewController {
         addRunTeam2.layer.borderWidth = 3.0
         addRunTeam2.layer.borderColor = team2Color.cgColor
         
+        removeRunTeam1.layer.cornerRadius = 8.0
+        removeRunTeam1.layer.borderWidth = 3.0
+        removeRunTeam1.layer.borderColor = team1Color.cgColor
         
+        removeRunTeam2.layer.cornerRadius = 8.0
+        removeRunTeam2.layer.borderWidth = 3.0
+        removeRunTeam2.layer.borderColor = team2Color.cgColor
         
         // Do any additional setup after loading the view.
     }
