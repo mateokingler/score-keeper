@@ -9,6 +9,7 @@ import UIKit
 
 class SoccerViewController: UIViewController {
 
+
     @IBOutlet weak var team1Label: UILabel!
     @IBOutlet weak var team2Label: UILabel!
     var team1Name : String = "Team 1"
@@ -23,6 +24,10 @@ class SoccerViewController: UIViewController {
     @IBOutlet weak var team2AddGoal: UIButton!
     @IBOutlet weak var team2RemoveGoal: UIButton!
     
+    var team1Score = 0
+    var team2Score = 0
+    var goal = 1
+    
     override func viewDidLoad() {
         
         title = "Soccer ScoreKeeper"
@@ -34,23 +39,23 @@ class SoccerViewController: UIViewController {
         
         //Team 1 button design ====================================
         //add
-        addGoalButtonTeam1.layer.cornerRadius = 8.0
-        addGoalButtonTeam1.layer.borderWidth = 3.0
-        addGoalButtonTeam1.layer.borderColor = team1Color.cgColor
+        team1AddGoal.layer.cornerRadius = 8.0
+        team1AddGoal.layer.borderWidth = 3.0
+        team1AddGoal.layer.borderColor = team1Color.cgColor
         //remove
-        removeGoalButtonTeam1.layer.borderWidth = 3.0
-        removeGoalButtonTeam1.layer.cornerRadius = 8.0
-        removeGoalButtonTeam1.layer.borderColor = team1Color.cgColor
+        team1RemoveGoal.layer.borderWidth = 3.0
+        team1RemoveGoal.layer.cornerRadius = 8.0
+        team1RemoveGoal.layer.borderColor = team1Color.cgColor
         
         //Team 2 buttons ====================================
         //add
-        addGoalButtonTeam2.layer.cornerRadius = 8.0
-        addGoalButtonTeam2.layer.borderWidth = 3.0
-        addGoalButtonTeam2.layer.borderColor = team2Color.cgColor
+        team2AddGoal.layer.cornerRadius = 8.0
+        team2AddGoal.layer.borderWidth = 3.0
+        team2AddGoal.layer.borderColor = team2Color.cgColor
         //remove
-        removeGoalButtonTeam2.layer.cornerRadius = 8.0
-        removeGoalButtonTeam2.layer.borderWidth = 3.0
-        removeGoalButtonTeam2.layer.borderColor = team2Color.cgColor
+        team2RemoveGoal.layer.cornerRadius = 8.0
+        team2RemoveGoal.layer.borderWidth = 3.0
+        team2RemoveGoal.layer.borderColor = team2Color.cgColor
     }
     
     //LOCK PORTRAIT MODE -> Method in AppDelegate

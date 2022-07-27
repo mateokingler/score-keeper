@@ -535,10 +535,10 @@
                                         <rect key="frame" x="0.0" y="363" width="374" height="198"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="72" translatesAutoresizingMaskIntoConstraints="NO" id="3jE-Ax-y75" userLabel="Add Stack View">
-                                                <rect key="frame" x="0.0" y="0.0" width="169" height="198"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="198"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeu-Ex-Y9e" userLabel="Team1 Add Goal">
-                                                        <rect key="frame" x="0.0" y="0.0" width="169" height="95"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="163.5" height="95"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Add Goal">
                                                             <backgroundConfiguration key="background">
@@ -552,7 +552,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPf-qt-aqL">
-                                                        <rect key="frame" x="0.0" y="167" width="169" height="31"/>
+                                                        <rect key="frame" x="0.0" y="167" width="163.5" height="31"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Add Goal">
                                                             <backgroundConfiguration key="background">
@@ -571,10 +571,10 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="72" translatesAutoresizingMaskIntoConstraints="NO" id="Oue-F4-HjR" userLabel="Remove Stack View">
-                                                <rect key="frame" x="216" y="0.0" width="158" height="198"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="163.5" height="198"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-jL-OOQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="158" height="95"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="163.5" height="95"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="135" id="ArH-kK-P3v"/>
                                                             <constraint firstAttribute="width" constant="158" id="dOv-Vk-eFk"/>
@@ -591,7 +591,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvq-iR-z3o">
-                                                        <rect key="frame" x="0.0" y="167" width="158" height="31"/>
+                                                        <rect key="frame" x="0.0" y="167" width="163.5" height="31"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Remove Goal">
                                                             <backgroundConfiguration key="background">
@@ -636,9 +636,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="3rE-RK-dWO"/>
                     <connections>
+                        <outlet property="team1AddGoal" destination="yeu-Ex-Y9e" id="r48-L8-1jF"/>
+                        <outlet property="team1Label" destination="OQp-FM-0Nv" id="8dr-c9-2Mg"/>
                         <outlet property="team1RemoveGoal" destination="pH5-jL-OOQ" id="J4w-xt-gij"/>
                         <outlet property="team1ScoreLabel" destination="3fT-2G-Zla" id="Mbe-m4-6FB"/>
                         <outlet property="team2AddGoal" destination="aPf-qt-aqL" id="zZt-Fq-qTB"/>
+                        <outlet property="team2Label" destination="rHd-s6-yuc" id="KVI-FA-a31"/>
                         <outlet property="team2RemoveGoal" destination="Jvq-iR-z3o" id="mMr-nm-Nri"/>
                         <outlet property="team2ScoreLabel" destination="uch-Bp-XxS" id="w6i-d0-S0h"/>
                     </connections>
