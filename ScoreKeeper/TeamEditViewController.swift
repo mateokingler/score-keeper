@@ -129,6 +129,7 @@ class TeamEditViewController: UIViewController, UIColorPickerViewControllerDeleg
         }else{
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "OtherViewController") as! OtherViewController
             sportVC.team1Name = team1Input.text ?? "Team 1"
+            sportVC.team2Name = team2Input.text ?? "Team 2"
             navigationController?.pushViewController(sportVC, animated: true)
         }
         
