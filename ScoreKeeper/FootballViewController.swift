@@ -40,7 +40,7 @@ class FootballViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        title = "Basketball ScoreKeeper"
+        title = "Football ScoreKeeper"
         
         super.viewDidLoad()
         
