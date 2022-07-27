@@ -570,6 +570,11 @@
                                         <color key="strokeColor" systemColor="systemRedColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="addGoalCheaters:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="Ssj-3z-mi0"/>
+                                    <action selector="addGoalTeam1ButtonPressed:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="Rq6-Me-BcV"/>
+                                    <action selector="addGoalTeam2ButtonPressed:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="cGu-X5-bXe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-jL-OOQ">
                                 <rect key="frame" x="62" y="318" width="127" height="89"/>
@@ -580,6 +585,10 @@
                                         <color key="strokeColor" systemColor="systemRedColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="removeGoalCheaters:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="XIa-bx-zk3"/>
+                                    <action selector="removeGoalTeam1ButtonPressed:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="ttU-O5-vPt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPf-qt-aqL">
                                 <rect key="frame" x="224" y="219" width="128" height="89"/>
@@ -590,6 +599,10 @@
                                         <color key="strokeColor" systemColor="tintColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="addGoalLosers:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="Jhw-PA-NTx"/>
+                                    <action selector="addGoalTeam2ButtonPressed:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="ipg-N7-9yR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvq-iR-z3o">
                                 <rect key="frame" x="225" y="318" width="127" height="89"/>
@@ -600,12 +613,23 @@
                                         <color key="strokeColor" systemColor="tintColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="removeGoalLosers:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="gfa-hs-9qY"/>
+                                    <action selector="removeGoalTeam2ButtonPressed:" destination="Q3g-Rl-eSo" eventType="touchUpInside" id="Ieg-yt-hyl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mlc-8o-5hH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="3rE-RK-dWO"/>
+                    <connections>
+                        <outlet property="team1RemoveGoal" destination="pH5-jL-OOQ" id="J4w-xt-gij"/>
+                        <outlet property="team1ScoreLabel" destination="3fT-2G-Zla" id="Mbe-m4-6FB"/>
+                        <outlet property="team2AddGoal" destination="aPf-qt-aqL" id="zZt-Fq-qTB"/>
+                        <outlet property="team2RemoveGoal" destination="Jvq-iR-z3o" id="mMr-nm-Nri"/>
+                        <outlet property="team2ScoreLabel" destination="uch-Bp-XxS" id="w6i-d0-S0h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vuu-1O-ALS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
