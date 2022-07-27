@@ -1006,166 +1006,236 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheaters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGE-hk-cRO">
-                                <rect key="frame" x="101" y="159" width="108" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Losers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivH-C9-Mql">
-                                <rect key="frame" x="223" y="159" width="91" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i46-yn-Z9h">
-                                <rect key="frame" x="129" y="91" width="54" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNC-Qf-QX8">
-                                <rect key="frame" x="205" y="111" width="8" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ef8-67-X4e">
-                                <rect key="frame" x="241" y="91" width="54" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zml-fg-ru1">
-                                <rect key="frame" x="61" y="221" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Touchdown">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6f-Id-7Rm">
-                                <rect key="frame" x="62" y="320" width="127" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Field Goal">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhO-So-DyY">
-                                <rect key="frame" x="61" y="426" width="127" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Extra Point">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ht5-wi-i6k">
-                                <rect key="frame" x="48" y="532" width="154" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Touchdown">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQf-fD-X96">
-                                <rect key="frame" x="49" y="640" width="154" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Field Goal">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5u-hX-QeV">
-                                <rect key="frame" x="49" y="748" width="154" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Extra Point">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6S-69-1nA">
-                                <rect key="frame" x="224" y="221" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Touchdown">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVo-h7-XcP">
-                                <rect key="frame" x="225" y="320" width="127" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Field Goal">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4i-la-Gkv">
-                                <rect key="frame" x="224" y="426" width="127" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add Extra Point">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ff2-8v-eVd">
-                                <rect key="frame" x="211" y="532" width="154" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Touchdown">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A53-AA-OLJ">
-                                <rect key="frame" x="212" y="640" width="154" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Field Goal">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBe-0R-mcQ">
-                                <rect key="frame" x="212" y="748" width="154" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Remove Extra Point">
-                                    <backgroundConfiguration key="background">
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BIF-cZ-hdc" userLabel="Main Stack View">
+                                <rect key="frame" x="20" y="64" width="374" height="743"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Wkg-VR-Eqq" userLabel="Top Level Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="366.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Lvn-R2-7Yz" userLabel="Score Stack View">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="272.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i46-yn-Z9h">
+                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="272.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ef8-67-X4e">
+                                                        <rect key="frame" x="199.5" y="0.0" width="174.5" height="272.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nwk-iR-2Ar" userLabel="Name Stack View">
+                                                <rect key="frame" x="0.0" y="272.5" width="374" height="94"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheaters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGE-hk-cRO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="177" height="94"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Losers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivH-C9-Mql">
+                                                        <rect key="frame" x="197" y="0.0" width="177" height="94"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="YaD-bK-xbG"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4qC-mX-AjP" userLabel="Buttons Stack View">
+                                        <rect key="frame" x="0.0" y="376.5" width="374" height="366.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KA5-0y-VzJ" userLabel="Add TD Stack View">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="53"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zml-fg-ru1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="53"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Touchdown">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team1AddTDPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="A9N-Bh-RCR"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6S-69-1nA">
+                                                        <rect key="frame" x="192" y="0.0" width="182" height="53"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Touchdown">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team2AddTDPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="KRp-hu-k2q"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KwU-4f-qbN" userLabel="Add XP Stack View">
+                                                <rect key="frame" x="0.0" y="63" width="374" height="52.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhO-So-DyY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="52.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Extra Point">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team1AddXPPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="eJV-Zj-Zml"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4i-la-Gkv">
+                                                        <rect key="frame" x="192" y="0.0" width="182" height="52.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Extra Point">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team2AddXPPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="DcT-RJ-mMn"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Cp3-gg-2W5" userLabel="Add FG Stack View">
+                                                <rect key="frame" x="0.0" y="125.5" width="374" height="53"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6f-Id-7Rm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="53"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Field Goal">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team1AddFGPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="s0B-NB-ior"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVo-h7-XcP">
+                                                        <rect key="frame" x="192" y="0.0" width="182" height="53"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Add Field Goal">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team2AddFGPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="KiG-rP-Obg"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lfg-3y-IRV" userLabel="Remove TD Stack View">
+                                                <rect key="frame" x="0.0" y="188.5" width="374" height="52.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ht5-wi-i6k">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="52.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Touchdown">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team1RemoveTDPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="AEt-il-WVY"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ff2-8v-eVd">
+                                                        <rect key="frame" x="192" y="0.0" width="182" height="52.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Touchdown">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team2RemoveTDPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="DEM-6F-gmN"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uBr-PM-myN" userLabel="Remove  XP Stack View">
+                                                <rect key="frame" x="0.0" y="251" width="374" height="53"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5u-hX-QeV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="53"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Extra Point">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team1RemoveXPPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="ZVq-GF-vo9"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBe-0R-mcQ">
+                                                        <rect key="frame" x="192" y="0.0" width="182" height="53"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Extra Point">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team2RemovedXPPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="wqf-lS-RM1"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yTW-wQ-LHA" userLabel="Remove FG Stack View">
+                                                <rect key="frame" x="0.0" y="314" width="374" height="52.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQf-fD-X96">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="52.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Field Goal">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team1RemoveFGPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="8X9-1m-eiy"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A53-AA-OLJ">
+                                                        <rect key="frame" x="192" y="0.0" width="182" height="52.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Remove Field Goal">
+                                                            <backgroundConfiguration key="background"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="team2RemoveFGPressed:" destination="7hx-re-5rH" eventType="touchUpInside" id="l9r-wS-5EZ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sms-1w-yko"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BIF-cZ-hdc" firstAttribute="top" secondItem="sms-1w-yko" secondAttribute="top" constant="20" id="0fX-F7-th0"/>
+                            <constraint firstItem="sms-1w-yko" firstAttribute="bottom" secondItem="BIF-cZ-hdc" secondAttribute="bottom" constant="55" id="XaP-Yd-Cjb"/>
+                            <constraint firstItem="sms-1w-yko" firstAttribute="trailing" secondItem="BIF-cZ-hdc" secondAttribute="trailing" constant="20" id="ymk-w3-N8s"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Imy-Xd-4zP"/>
+                    <connections>
+                        <outlet property="team1AddFGButton" destination="U6f-Id-7Rm" id="TAa-gk-nTp"/>
+                        <outlet property="team1AddTDButton" destination="zml-fg-ru1" id="uXl-Mq-96D"/>
+                        <outlet property="team1AddXPButton" destination="LhO-So-DyY" id="VhN-El-dKd"/>
+                        <outlet property="team1Label" destination="GGE-hk-cRO" id="uPI-vS-l8X"/>
+                        <outlet property="team1RemoveFGButton" destination="eQf-fD-X96" id="zYh-9e-qLz"/>
+                        <outlet property="team1RemoveTDButton" destination="Ht5-wi-i6k" id="f5B-P0-oZX"/>
+                        <outlet property="team1RemoveXPButton" destination="F5u-hX-QeV" id="r76-z3-tWQ"/>
+                        <outlet property="team1ScoreLabel" destination="i46-yn-Z9h" id="0EY-aR-tQW"/>
+                        <outlet property="team2AddFGButton" destination="CVo-h7-XcP" id="YCh-Fd-wep"/>
+                        <outlet property="team2AddTDButton" destination="P6S-69-1nA" id="XfY-SN-de0"/>
+                        <outlet property="team2AddXPButton" destination="c4i-la-Gkv" id="Knx-EB-eeh"/>
+                        <outlet property="team2Label" destination="ivH-C9-Mql" id="gne-da-g0L"/>
+                        <outlet property="team2RemoveFGButton" destination="A53-AA-OLJ" id="cC5-yG-G7B"/>
+                        <outlet property="team2RemoveTDButton" destination="Ff2-8v-eVd" id="aJC-Ni-9au"/>
+                        <outlet property="team2RemoveXPButton" destination="ZBe-0R-mcQ" id="ufk-92-gn4"/>
+                        <outlet property="team2ScoreLabel" destination="Ef8-67-X4e" id="6Di-R6-pvb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sB-Tr-0DP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1193,12 +1263,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

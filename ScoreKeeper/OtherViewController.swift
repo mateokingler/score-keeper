@@ -2,7 +2,7 @@
 //  OtherViewController.swift
 //  ScoreKeeper
 //
-//  Created by Ernesto Gomila on 7/13/22.
+//  Created by Michael Panopio-Mones on 7/24/22.
 //
 
 import UIKit
