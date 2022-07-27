@@ -26,7 +26,7 @@ class SoccerViewController: UIViewController {
     
     var team1Score = 0
     var team2Score = 0
-    var goal = 1
+    let goal = 1
     
     override func viewDidLoad() {
         

@@ -121,6 +121,7 @@ class TeamEditViewController: UIViewController, UIColorPickerViewControllerDeleg
         }else if(sportSelected == "Soccer"){
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "SoccerViewController") as! SoccerViewController
             sportVC.team1Name = team1Input.text ?? "Team 1"
+            sportVC.team2Name = team2Input.text ?? "Team 2"
             navigationController?.pushViewController(sportVC, animated: true)
         }else if(sportSelected == "Football"){
             let sportVC = storyboard?.instantiateViewController(withIdentifier: "FootballViewController") as! FootballViewController
